@@ -34,6 +34,7 @@ pacifica
 ## Installation
 ```bash
 git clone git@github.com:serinuntius/pacifica.git
+cd pacifica
 cargo install --path .
 ```
 

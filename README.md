@@ -29,15 +29,13 @@ pacifica #default read $HOME/src/**/**
 
 ## Config
 ```bash
-export PACIFICA_PATH = "/Users/example/src"
+export PACIFICA_PATH="/Users/example/src"
 pacifica
 ```
 
 ## Installation
 ```bash
-git clone git@github.com:serinuntius/pacifica.git
-cd pacifica
-cargo install --path .
+cargo install --git https://github.com/serinuntius/pacifica.git
 ```
 
 ## License
